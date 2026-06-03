@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "features": [
+    "dsa_score",
+    "resume_score",
+    "github_activity",
+    "project_count",
+    "mock_interview_score",
+    "communication_rating",
+    "coding_consistency"
+  ],
+  "roles": [
+    "Frontend Developer",
+    "Backend Developer",
+    "Full Stack Developer",
+    "AI/ML Engineer",
+    "DevOps Engineer"
+  ],
+  "feature_importances": {
+    "dsa_score": 0.36929474061550693,
+    "resume_score": 0.1822826448283569,
+    "github_activity": 0.17721357566147536,
+    "project_count": 0.022672577518849216,
+    "mock_interview_score": 0.14726454990522572,
+    "communication_rating": 0.0658450015945571,
+    "coding_consistency": 0.035426909876028846
+  },
+  "training_samples": 2000
+}
