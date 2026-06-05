@@ -265,10 +265,5 @@ Or deploy to Railway:
 
 ---
 
-## 📄 License
 
-MIT © DevMentor AI 2025
 
----
-
-Built with ❤️ for developers. Powered by Gemini AI + Random Forest ML.
