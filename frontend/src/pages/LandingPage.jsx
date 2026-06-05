@@ -256,8 +256,8 @@ const LandingPage = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           >
-            <Link to={isAuthenticated ? "/dashboard" : "/register"} className="btn-primary text-base px-8 py-4 group">
-              {isAuthenticated ? "Go to Dashboard" : "Start For Free"}
+            <Link to="/register" className="btn-primary text-base px-8 py-4 group">
+              Start For Free
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link to="/login" className="btn-ghost text-base px-8 py-4">
@@ -498,10 +498,10 @@ const LandingPage = () => {
                   ))}
                 </ul>
                 <Link
-                  to={isAuthenticated ? "/dashboard" : "/register"}
+                  to="/register"
                   className={plan.highlight ? 'btn-primary w-full justify-center' : 'btn-ghost w-full justify-center'}
                 >
-                  {isAuthenticated ? "Go to Dashboard" : plan.cta}
+                  {plan.cta}
                 </Link>
               </motion.div>
             ))}
@@ -528,8 +528,8 @@ const LandingPage = () => {
               <p className="text-lg mb-8 max-w-xl mx-auto" style={{ color: 'var(--color-text-muted)' }}>
                 Join 50,000+ developers who are using AI to accelerate their careers.
               </p>
-              <Link to={isAuthenticated ? "/dashboard" : "/register"} className="btn-primary text-base px-10 py-4 group">
-                {isAuthenticated ? "Go to Dashboard" : "Start For Free — No Credit Card"}
+              <Link to="/register" className="btn-primary text-base px-10 py-4 group">
+                Start For Free — No Credit Card
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
